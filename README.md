@@ -1,2 +1,140 @@
-# Portafolio
-Portafolio de evidencias de proyectoe en los que eh trabajado
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nissan Pathfinder xddd</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #111827;
+      color: #f9fafb;
+    }header {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #38bdf8;
+}
+
+.hero {
+  height: 60vh;
+  background: url('https://images.unsplash.com/photo-1619767886558-efdc259cde1a') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h2 {
+  background: rgba(0,0,0,0.6);
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.container {
+  padding: 40px;
+}
+
+.cars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1f2933;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.price {
+  color: #22c55e;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #38bdf8;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  margin-top: 30px;
+}
+
+  </style>
+</head>
+<body><header>
+  <h1>🔥 Nissan Pathfinder xddd 🚗</h1>
+  <p>El carro que te lleva a otro nivel</p>
+</header><section class="hero">
+  <h2>Compra tu Pathfinder ahora 😎</h2>
+</section><div class="container">
+  <h2>Modelos disponibles</h2>
+  <div class="cars"><div class="card">
+  <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6">
+  <div class="card-content">
+    <h3>Pathfinder 2023</h3>
+    <p>Motor V6, 7 asientos, tecnología full.</p>
+    <div class="price">$38,000</div>
+    <button class="btn" onclick="comprar('Pathfinder 2023')">Comprar</button>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738">
+  <div class="card-content">
+    <h3>Pathfinder 2022</h3>
+    <p>Elegante, potente y cómoda.</p>
+    <div class="price">$34,000</div>
+    <button class="btn" onclick="comprar('Pathfinder 2022')">Comprar</button>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d">
+  <div class="card-content">
+    <h3>Pathfinder 2020</h3>
+    <p>Excelente estado, gran oportunidad.</p>
+    <div class="price">$28,000</div>
+    <button class="btn" onclick="comprar('Pathfinder 2020')">Comprar</button>
+  </div>
+</div>
+
+  </div>
+</div><footer>
+  <p>© 2026 Nissan Pathfinder Store xddd</p>
+</footer><script>
+  function comprar(modelo) {
+    alert("🚗 Has seleccionado: " + modelo + "\nTe contactaremos pronto 😎");
+  }
+</script></body>
+</html>
